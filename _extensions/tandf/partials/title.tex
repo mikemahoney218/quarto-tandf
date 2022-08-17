@@ -18,5 +18,6 @@ $if(subtitle)$
 \makeatother
 \subtitle{$subtitle$}
 $endif$
-\author{${ by-author:_authors.tex()[\and ] }}
-\date{$date$}
+\author{${ by-author:_authors.tex()[, ] }}
+
+\thanks{CONTACT: $for(by-author)$$if(by-author.email)$$by-author.name.literal$. Email: \href{mailto:$by-author.email$}{\nolinkurl{$by-author.email$}}. $endif$$endfor$}

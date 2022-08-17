@@ -12,9 +12,18 @@ $if(beamer)$
 $else$
 \maketitle
 $endif$
+$by-affiliation:_affiliations.tex()[\\ ]$
+
 $if(abstract)$
 \begin{abstract}
 $abstract$
 \end{abstract}
+$endif$
+$if(keywords)$
+\begin{keywords}
+\def\sep{;\ }
+$for(keywords/allbutlast)$$keywords$\sep $endfor$
+$for(keywords/last)$$keywords$$endfor$
+\end{keywords}
 $endif$
 $endif$
