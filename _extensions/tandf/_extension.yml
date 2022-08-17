@@ -1,6 +1,6 @@
 title: Taylor and Francis "Interact" Format
 author: Mike Mahoney
-version: 0.1.1
+version: 0.1.2
 contributes:
   formats:
     common:
@@ -30,6 +30,7 @@ contributes:
       format-resources:
         # Add here the resources required for the PDF rendering
         - interact.cls
+        - orcidlink.sty
     html:
       # define default configuration for the html version of your format
       toc: true
