@@ -1,6 +1,6 @@
 title: Taylor and Francis "Interact" Format
 author: Mike Mahoney
-version: 0.1.0
+version: 0.1.1
 contributes:
   formats:
     common:
