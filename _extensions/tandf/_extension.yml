@@ -1,6 +1,6 @@
 title: Taylor and Francis "Interact" Format
 author: Mike Mahoney
-version: 0.1.2
+version: 0.1.3
 contributes:
   formats:
     common:
@@ -34,6 +34,5 @@ contributes:
     html:
       # define default configuration for the html version of your format
       toc: true
-      theme: custom.scss
       # Use a CSL file to style (https://www.zotero.org/styles/)
       csl: https://www.zotero.org/styles/taylor-and-francis-chicago-author-date

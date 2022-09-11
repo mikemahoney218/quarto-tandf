@@ -175,9 +175,25 @@ bibliography: references.bib
 
 See the [Pandoc Citations](https://pandoc.org/MANUAL.html#citations) documentation for additional information on bibliography formats.
 
+# Citations
+
+This section of the template is adapted from the [Quarto citation documentation](https://quarto.org/docs/authoring/footnotes-and-citations.html).
+
+Quarto supports bibliography files in a wide variety of formats including BibTeX and CSL. Add a bibliography to your document using the `bibliography` YAML metadata field. For example:
+
+``` yaml
+---
+title: "My Document"
+bibliography: references.bib
+---
+```
+
+See the [Pandoc Citations](https://pandoc.org/MANUAL.html#citations) documentation for additional information on bibliography formats.
+
 ## Citation Syntax {#sec-citations}
 
 Quarto uses the standard Pandoc markdown representation for citations. Here are some examples:
+
 
 +-------------------------------------------+---------------------------------------------------------------------+
 | Markdown Format                           | Output                                                              |
@@ -192,10 +208,16 @@ Quarto uses the standard Pandoc markdown representation for citations. Here are 
 +-------------------------------------------+---------------------------------------------------------------------+
 |     Wickham says blah [-@wickham2015]     | Wickham says blah [-@wickham2015]                                   |
 +-------------------------------------------+---------------------------------------------------------------------+
-|     @knuth1984 says blah.                 | @knuth1984 says blah.                                               |
-+-------------------------------------------+---------------------------------------------------------------------+
-|     @knuth1984 [p. 33] says blah.         | @knuth1984 [p. 33] says blah.                                       |
-+-----------------------------------+-----------------------------------------------------------------------------+
+
+You can also write in-text citations, as follows:
+
++-----------------------------------+-------------------------------+
+| Markdown Format                   | Output                        |
++===================================+===============================+
+|     @knuth1984 says blah.         | @knuth1984 says blah.         |
++-----------------------------------+-------------------------------+
+|     @knuth1984 [p. 33] says blah. | @knuth1984 [p. 33] says blah. |
++-----------------------------------+-------------------------------+
 
 See the [Pandoc Citations](https://pandoc.org/MANUAL.html#citations) documentation for additional information on citation syntax.
 
