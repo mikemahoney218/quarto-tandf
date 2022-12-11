@@ -38,3 +38,7 @@ format:
 ```
 
 You can view a preview of the rendered template at <https://mike.quarto.pub/demo-taylor-and-francis-template/>.
+
+## In The Wild
+
+Use this template for a paper or a preprint? [Let me know,](https://github.com/mikemahoney218/quarto-tandf/issues/new) and I'll add it to this section!
