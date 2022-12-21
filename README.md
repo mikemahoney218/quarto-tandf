@@ -41,4 +41,8 @@ You can view a preview of the rendered template at <https://mike.quarto.pub/demo
 
 ## In The Wild
 
-Use this template for a paper or a preprint? [Let me know,](https://github.com/mikemahoney218/quarto-tandf/issues/new) and I'll add it to this section!
+Use this template for a paper or a preprint? [Let me know,](https://github.com/mikemahoney218/quarto-tandf/issues/new) and I'll add it to the list below!
+
+The following papers were rendered using this template:
+
++ [Classification and mapping of low-statured ‘shrubland’ cover types in post-agricultural landscapes of the US Northeast](https://www.mm218.dev/papers/shrubland_2022.pdf) -- now published at [The International Journal of Remote Sensing](https://doi.org/10.1080/01431161.2022.2155086)!
